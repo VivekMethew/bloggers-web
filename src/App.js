@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './component/Home';
@@ -17,7 +16,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route path="/about" component={About} />
 					<Route path="/blogs" component={NewBlogs} />
-					<Route path="/profile/:userid" component={Profile} />
+					<Route path="/profile/:userid " component={Profile} />
 				</Switch>
 			</div>
 		</Router>
